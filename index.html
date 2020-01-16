@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IMPORT WIZARD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="Bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/app1.css">
+</head>
+<body>
+<div class="container">
+  <div class="B">
+       <button type="button" class="btn btn-secondary P"  name="ans">1 Upload CSV file </button>
+       <button type="button" class="btn btn-secondary Q" name="ans">2 Columns Handling</button>
+  </div>
+   <div class="A">
+       <div class="container">
+    <form action="#" method="POST">
+      
+       <h5>Import from CSV file</h5>
+    <div class="container">
+      <div class="col-lg-6">
+       <h6>Select CSV file</h6>
+       </div>
+       <div class="col-lg-6">
+      <input type="file" class="rased" name="uplaoded file">
+      </div>
+    </div>
+    <div class="container">
+      <div class="col-lg-6">
+       <h6 >Has Header</h6>
+       </div>
+       <div class="col-lg-6">
+       <input type="checkbox" class="rased">
+       </div>
+      </div>
+      <div class="container">
+       <div class="col-lg-6">
+       <h6>Character Encoding</h6>
+       </div>
+       <div class="col-lg-6">
+       <select class="rased">
+           <option>UTF-8</option>
+           <option>A</option>
+           <option>A</option>
+       </select>
+       </div>
+      </div>
+      <div class="container">
+       <div class="col-lg-6">
+       <h6>Delimiter</h6>
+       </div>
+       <div class="col-lg-6">
+       <input type="radio" id="N" name="Delimiter">
+       <label for="N">comma</label>
+       <input type="radio" id="N" name="Delimiter">
+       <label for="N">semicolon</label>
+       <input type="radio" id="N" name="Delimiter">
+       <label for="N">Pipe</label>
+       <input type="radio" id="N" name="Delimiter">
+       <label for="N">caret</label>
+       </form>
+       </div>
+      </div>
+    </div>
+   </div>
+   
+   <hr>
+   <div class="C">
+     <div class="D">
+       <button class="btn btn-success">Next</button>
+       <a href="#" class="btn" style="color: red; ">Cancel</a>
+    </div>
+   </div>
+   
+</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
