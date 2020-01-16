@@ -1,0 +1,45 @@
+.B{
+    height: 40px;
+    border: 5px solid #D2CFD6;
+    margin-top:180px;
+    background-color: #D2CFD6; 
+    
+}
+.A{
+
+    height: 200px;
+    border: 5px solid #D2CFD6;
+    margin-top:20px;
+    background-color: #D2CFD6; 
+    
+
+}
+.C{
+  
+    height: 40px;
+    border: 5px solid #D2CFD6;
+    margin-top:80px;
+    background-color: #D2CFD6; 
+    
+}
+.D{
+    margin-left: 500px;
+}
+.P{
+    width: 400px;
+    background-color: #D2CFD6;
+}
+.Q{
+    width: 400px;
+    background-color: #D2CFD6;
+}
+
+h5{
+    padding:10px;
+    border-bottom:1px solid black;
+    width: 1050px;
+}
+
+.rased{
+    display:inline;
+}
